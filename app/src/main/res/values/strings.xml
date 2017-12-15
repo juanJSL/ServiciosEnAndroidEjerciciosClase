@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ServiciosEnAndroidEjerciciosClase</string>
+    <string name="ejrHilosSecundarios">Ejercicio con hilos secundarios</string>
+    <string name="pararServicio">Parar servicio</string>
+    <string name="iniciarServicio">Iniciar servicio</string>
 </resources>

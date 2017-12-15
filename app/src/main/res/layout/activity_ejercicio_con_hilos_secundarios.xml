@@ -5,11 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hlc.serviciosenandroidejerciciosclase.MainActivity">
+    tools:context="com.hlc.serviciosenandroidejerciciosclase.EjercicioConHilosSecundarios">
 
     <Button
-        android:id="@+id/ejerHilosSecundariosBT"
+        android:id="@+id/iniciarServicioBT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ejrHilosSecundarios" />
+        android:text="@string/iniciarServicio" />
+
+    <Button
+        android:id="@+id/pararServicioBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pararServicio" />
 </LinearLayout>
