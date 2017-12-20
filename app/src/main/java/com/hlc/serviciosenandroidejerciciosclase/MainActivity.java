@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirEjercicioConHilosSecundarios(View v){
-        Intent i = new Intent()
+        Intent i = new Intent(this, EjercicioConHilosSecundarios.class);
+        startActivity(i);
+    }
+
+    public void ejercicioMensajesEcentos(View v){
+        Intent i = new Intent(this, EjercicioMensajesEventosBroadCastReceiver.class);
+        startActivity(i);
     }
 }
